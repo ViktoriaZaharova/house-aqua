@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+  <meta charset="utf-8">
+  <title>DOMАКВАitle</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="wrapper bg-white">
+
+  <div class="mobile-menu">
+    <div class="btn-close"><img src="img/close.svg" alt=""></div>
+    <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+    <ul class="menu">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="page.html">Страница</a></li>
+      <li><a href="tariffs.html">Тарифы</a></li>
+      <li><a href="equipment.html">Об оборудовании</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center flex-wrap">
+          <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+
+          <div class="select-location">
+            <select name="select" class="select">
+              <option value="выберите город">выберите город</option>
+              <option value="выберите город">выберите город</option>
+              <option value="выберите город">выберите город</option>
+              <option value="выберите город">выберите город</option>
+            </select>
+          </div>
+
+          <a href="tel:+78412997990" class="phone"><span class="phone-icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#phone"></use></svg></span><span
+              class="phone-text">997-990</span></a>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-border" data-toggle="modal" data-target="#exampleModal">стать
+              абонентом</a>
+
+            <a href="#" class="btn btn-white" data-toggle="modal" data-target="#payModal">оплатить</a>
+          </div>
+
+          <div class="btn-menu"><svg class="svg-icon"><use xlink:href="img/sprite.svg#dots-menu"></use></svg></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <h1>Получайте <br>безлимитный доступ
+            <span>к чистой, вкусной и полезной питьевой воде у себя дома всего за 490 руб/мес</span>
+          </h1>
+
+          <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModal">Стать абонентом
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <section class="about-water">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-5 offset-lg-1 order-lg-1">
+          <div class="mobile-title"><h2><span class="color-green">Вода,</span> о которой
+            <span class="color-green">нЕ</span> нужно <span class="color-green">ПРОСИТЬ</span></h2></div>
+          <div class="about-water-img"><img src="img/water1.png" alt=""></div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="about-water-content">
+            <h2><span class="color-green">Вода,</span> о которой
+              <span class="color-green">нЕ</span> нужно <span class="color-green">ПРОСИТЬ</span></h2>
+            <h3>НЕ РАЗЛЕЙ ВОДА!</h3>
+            <ul class="list-dots">
+              <li>Зачем выяснять, кто пойдет за водой?</li>
+              <li>Стань абонентом нашего сервиса</li>
+              <li>Оставайся в зоне комфорта!</li>
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-accent">Об услуге</a>
+              <a href="#" class="btn btn-accent">Стать абонентом</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-water">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <div class="mobile-title"><h2><span class="color-green">Вода</span>, которую <span
+              class="color-green">НЕ</span>
+            нужно <span class="color-green">ЖДАТЬ</span></h2></div>
+          <div class="about-water-img"><img src="img/water2.png" alt=""></div>
+        </div>
+
+        <div class="col-12 col-lg-6 offset-lg-1">
+          <div class="about-water-content">
+            <h2><span class="color-green">Вода</span>, которую <span class="color-green">НЕ</span> нужно <span
+                class="color-green">ЖДАТЬ</span></h2>
+            <h3>СКОЛЬКО ВОДЫ УТЕЧЕТ? </h3>
+            <ul class="list-dots">
+              <li>Зачем менять свои планы в ожидании доставки?</li>
+              <li>Станьте абонентом нашего сервиса</li>
+              <li>Будь еще свободней!</li>
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-accent">Об услуге</a>
+              <a href="#" class="btn btn-accent">Стать абонентом</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about-water">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-5 offset-lg-1 order-lg-1">
+          <div class="mobile-title"><h2><span class="color-green">Вода</span>, которая никогда <span
+              class="color-green">не заканчивается</span>
+          </h2></div>
+          <div class="about-water-img"><img src="img/water3.png" alt=""></div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="about-water-content">
+            <h2><span class="color-green">Вода</span>, которая никогда <span class="color-green">не заканчивается</span>
+            </h2>
+            <h3>ВОДА ЭТО ЖИЗНЬ!</h3>
+            <ul class="list-dots">
+              <li>Вода снова заканчивается?
+              </li>
+              <li>Cтаньте абонентом нашего сервиса</li>
+              <li>Пейте, готовьте, мойте фрукты и овощи чистой питьевой водой без ограничений!
+              </li>
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-accent">Об услуге</a>
+              <a href="#" class="btn btn-accent">Стать абонентом</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-water">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <div class="mobile-title"><h2><span class="color-green">Вода</span>, о качестве которой <span
+              class="color-green">не</span> нужно <span class="color-green">беспокоиться</span></h2></div>
+          <div class="about-water-img"><img src="img/water4.png" alt=""></div>
+        </div>
+
+        <div class="col-12 col-lg-6 offset-lg-1">
+          <div class="about-water-content">
+            <h2><span class="color-green">Вода</span>, о качестве которой <span class="color-green">не</span> нужно
+              <span
+                  class="color-green">беспокоиться</span></h2>
+            <h3>Ты то, что ты пьешь!</h3>
+            <ul class="list-dots">
+              <li>Вода из бака на улице, безопасно ли это?</li>
+              <li>Кто пользовался этой бутылкой из “доставки” до Вас?</li>
+              <li>Её хорошо обработали?</li>
+              <li>Станьте абонентом нашего сервиса</li>
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-accent">Об услуге</a>
+              <a href="#" class="btn btn-accent">Стать абонентом</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-water about-water-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2><span class="color-green">Вода</span>, за которую <span class="color-green">не</span> нужно <span
+              class="color-green">переплачивать</span></h2>
+        </div>
+      </div>
+      <div class="row align-items-center">
+
+
+        <div class="col-12 col-lg-6 order-lg-1">
+          <div class="about-water-content">
+            <h3>Среднестатистические расходы семьи на приобретения питьевой <br>воды в месяц</h3>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-lg-6">
+          <div class="about-water-img"><img src="img/water5.jpeg" alt=""></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about-water about-water-two">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="about-water-content">
+            <h3>Сколько литров воды можно купить <br>
+              за 490 Руб</h3>
+            <div class="btn-group d-none d-sm-flex">
+              <a href="#" class="btn btn-accent">Об услуге</a>
+              <a href="#" class="btn btn-accent">Стать абонентом</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="about-water-img"><img src="img/water7.jpeg" alt=""></div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center flex-wrap">
+          <a href="index.html" class="logo"><img src="img/logo-footer.svg" alt=""></a>
+
+          <div class="footer-box">
+            <a href="tel:+78412997-990" class="tel">8 8412 997-990</a>
+
+            <a href="mailto:info@domaqua.pro" class="mail">info@domaqua.pro</a>
+
+            <div class="address">Пенза, ул. Дзержинсокго, 4</div>
+          </div>
+
+          <ul class="list-social">
+            <li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/vk.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/fb.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/ok.svg" alt=""></a></li>
+          </ul>
+
+          <a href="#" class="color-accent links-info">Юридическая информация</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
