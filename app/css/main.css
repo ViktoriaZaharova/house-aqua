@@ -879,6 +879,25 @@ footer {
   font-size: 24px;
   text-transform: uppercase; }
 
+.equipment-page h3 {
+  font-size: 48px; }
+
+.equipment-page ul {
+  padding: 25px 0;
+  font-size: 18px;
+  margin: 25px 0 23px; }
+
+.equipment-page .price {
+  margin: 0 0 28px; }
+
+.equipment-page .btn {
+  height: 40px;
+  max-width: 179px;
+  color: #000;
+  font-size: 14px; }
+  .equipment-page .btn:hover {
+    color: #fff; }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1630px) {
   .advantages-company-number {
@@ -1151,7 +1170,9 @@ footer {
   .video-box {
     height: auto; }
   .video-section h2 {
-    font-size: 38px; } }
+    font-size: 38px; }
+  .page h1 {
+    font-size: 34px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
