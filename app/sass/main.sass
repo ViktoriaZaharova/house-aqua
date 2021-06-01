@@ -162,6 +162,10 @@ a.color-accent
     background: #fff
     color: $accent
 
+.btn-border-accent
+  border: 2px solid #C4D200
+  color: #C4D200
+
 .btn-white
   background: #fff
   color: $accent
@@ -272,7 +276,21 @@ header
     fill: $accent
   .phone
     color: $accent
+  select
+    border: 2px solid #006178
+    background: url("../img/select2.svg") no-repeat calc(100% - 12px) center
+      size: 23px
+    color: #006178
 
+.header-contacts
+  .btn-menu, .phone-icon
+    fill: $accent
+  .phone
+    color: $accent
+  select
+    color: #C4D200
+  .btn-menu
+    fill: #C4D200
 
 .btn-menu
   margin: 0 0 0 70px
@@ -491,10 +509,15 @@ footer
   justify-content: center
   margin: 0 auto
   max-width: 766px
+  height: 456px
   width: 100%
   border-radius: 10px
   overflow: hidden
   z-index: 1
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
   &:before
     content: ''
     position: absolute
@@ -585,6 +608,141 @@ footer
     left: 50%
     transform: translate(-50%,0)
     width: 1543px
+
+//page
+.page
+  padding: 47px 0 0
+  h1
+    margin: 0
+    font-size: 45px
+    font-weight: bold
+
+.contacts
+  padding: 100px 0 0
+
+.contacts-box
+  margin: 70px 0 0
+  color: #006178
+  font-size: 24px
+  .phone
+    font-size: 36px
+    font-weight: bold
+    color: $accent
+  .svg-icon
+    fill: $accent2
+  .phone-icon
+    width: 30px
+    min-width: 30px
+    height: 27px
+    margin: 0 19px 0 0
+  a
+    display: flex
+    align-items: center
+    color: #006178
+
+.contacts-mail
+  display: flex
+  align-items: center
+  .mail-icon
+    width: 30px
+    height: 22px
+    min-width: 30px
+    margin: 0 19px 0 0
+    display: flex
+    align-items: center
+    justify-content: center
+
+.address
+  display: flex
+  align-items: center
+  margin: 34px 0 28px
+
+.address-icon
+  width: 30px
+  min-width: 30px
+  height: 24px
+  margin: 0 19px 0 0
+  display: flex
+  align-items: center
+  justify-content: center
+
+//tariffs page
+.video-section
+  margin: 118px 0 0
+  h2
+    text-align: left
+    font-size: 40px
+    margin: 0 0 45px
+  .box-text
+    font-size: 38px
+
+.tariffs-page
+  h1
+    margin: 0 auto
+    font-size: 38px
+
+.tariffs-box
+  margin: 50px 0 0
+  padding: 55px 55px 40px
+  border-radius: 40px
+  box-shadow: 0px 15px 40px #E2E6EB
+  h3
+    font-size: 58px
+    font-weight: bold
+    margin: 0
+  ul
+    margin: 25px 0 36px
+    font-size: 25px
+    line-height: 30px
+    position: relative
+    padding: 25px 0 9px 20px
+    &:before, &:after
+      content: ''
+      position: absolute
+      width: 298px
+      height: 1px
+      background: #C4D200
+      left: 0
+    &:before
+      top: 0
+    &:after
+      bottom: 0
+  .btn
+    max-width: 221px
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    .svg-icon
+      width: 22px
+      height: 22px
+      fill: #C4D200
+  .btn-accent
+    .svg-icon
+      fill: #fff
+  .btn-white
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #006178
+    &:hover
+      background: $accent
+
+.tariffs-box-one
+  background: radial-gradient(100% 105.81% at 0% 100%, #006178 0%, #C4D200 100%), #FFFFFF
+  color: #fff
+  h3, .subtitle
+    color: #fff
+    
+.tariffs-box-two
+  background: #fff
+      
+.price
+  font-size: 38px
+  font-weight: bold
+  margin: 0 0 45px
+
+
+.subtitle
+  color: #006178
+  font-size: 24px
+  text-transform: uppercase
 
 // Всегда в конце
 @import "media"
