@@ -290,8 +290,102 @@
 
 </div>
 
+<!-- Модальное окно -->
+<div class="modal fade" id="payModal" tabindex="-1" aria-labelledby="payModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Оплатить</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img"><img src="img/pay.svg" alt=""></div>
+
+        <a href="#" class="btn btn-green">оплатить онлайн</a>
+
+        <a href="#" class="btn-play-video">
+          <span class="btn-play-video__icon"><img src="img/play2.svg" alt=""></span>
+          <span class="btn-play-video__text">посмотреть видеоинструкцию</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Связаться с нами</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form-call">
+          <label><input type="text" placeholder="имя" name="name"></label>
+          <label><input type="text" placeholder="телефон" name="phone" required></label>
+          <label><input type="text" placeholder="e-mail" name="mail"></label>
+          <button type="submit" class="btn btn-green">оформить заявку</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalOrder" tabindex="-1" aria-labelledby="modalOrderLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>оставьте заявку</h3>
+        <div class="box-text">
+          <p>для того, чтобы наши менеджеры связались с вами в ближайшее время</p>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form-call">
+          <label>
+            <select name="select" class="select">
+              <option value="выберите ваш город">выберите ваш город</option>
+              <option value="выберите ваш город">выберите ваш город</option>
+              <option value="выберите ваш город">выберите ваш город</option>
+              <option value="выберите ваш город">выберите ваш город</option>
+            </select>
+          </label>
+          <div class="form-group">
+            <label class="radio">
+              <input name="radio" type="radio" class="input-radio">
+              <span class="radio-custom"></span>
+              <span class="label">Квартира</span>
+            </label>
+            <label class="radio">
+              <input name="radio" type="radio" class="input-radio">
+              <span class="radio-custom"></span>
+              <span class="label">Офис</span>
+            </label>
+          </div>
+
+          <label><input type="text" placeholder="имя" name="name"></label>
+          <label><input type="text" placeholder="телефон" name="phone" required></label>
+          <label><input type="text" placeholder="e-mail" name="mail"></label>
+          <button type="submit" class="btn btn-green">оформить заявку</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <script src="js/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 <script src="js/common.js"></script>
 
 </body>

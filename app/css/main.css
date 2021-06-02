@@ -184,6 +184,10 @@ a.color-accent:hover {
   height: 60px;
   max-width: 298px;
   width: 100%; }
+  .btn:hover, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 .btn-accent {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 97, 120, 0.1);
@@ -219,6 +223,19 @@ a.color-accent:hover {
   .btn-white:hover {
     background: #006178;
     color: #fff; }
+
+.btn-green {
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  -webkit-box-shadow: 0px 5px 20px rgba(196, 210, 0, 0.15);
+          box-shadow: 0px 5px 20px rgba(196, 210, 0, 0.15);
+  height: 40px;
+  max-width: 179px;
+  background: #C4D200; }
+  .btn-green:hover {
+    color: #fff;
+    background: #006178; }
 
 .phone {
   font-size: 36px;
@@ -898,6 +915,187 @@ footer {
   .equipment-page .btn:hover {
     color: #fff; }
 
+.modal-dialog {
+  max-width: 376px;
+  margin: 0 auto; }
+
+.modal-content {
+  padding: 46px 20px 38px;
+  border: none;
+    border-radius: 40px; }
+  .modal-content h3 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000; }
+  .modal-content .btn {
+    margin: 0 auto; }
+
+.modal-header {
+  border: none;
+  padding: 0;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .modal-header .box-text {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 26px;
+    font-size: 14px;
+    color: #000;
+    max-width: 256px; }
+  .modal-header .close {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(100% 105.81% at 0% 100%, #006178 0%, #C4D200 100%), #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    opacity: 1;
+    right: -25px;
+    top: -25px; }
+    .modal-header .close:hover {
+      opacity: 1; }
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+  opacity: 1; }
+
+.modal-img {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.modal-body {
+  padding: 0;
+  width: 100%; }
+
+.btn-play-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 39px auto 0;
+  color: #979797;
+  font-size: 18px; }
+  .btn-play-video:hover {
+    color: #006178; }
+
+.btn-play-video__icon {
+  margin: 0 26px 0 0;
+  width: 40px;
+  height: 40px;
+  min-width: 40px; }
+
+.btn-play-video__text {
+  max-width: 164px; }
+
+#exampleModal h2 {
+  font-size: 36px; }
+
+.form-call {
+  max-width: 271px;
+  width: 100%;
+  margin: 13px auto 0; }
+  .form-call label {
+    margin: 0 0 21px;
+    width: 100%; }
+  .form-call input {
+    border: 1px solid #C4D200;
+      border-radius: 20px;
+    height: 40px;
+    text-align: center;
+    color: #006178;
+    font-size: 14px; }
+    .form-call input::-webkit-input-placeholder {
+      color: #006178; }
+    .form-call input::-moz-placeholder {
+      color: #006178; }
+    .form-call input::-ms-input-placeholder {
+      color: #006178; }
+    .form-call input::placeholder {
+      color: #006178; }
+  .form-call .btn {
+    margin: 40px auto 0; }
+  .form-call select {
+    color: #006178;
+    font-size: 14px;
+    border: 1px solid #C4D200;
+    width: 100%;
+    padding: 0 29px 0 15px;
+    background: transparent url("../img/select2.svg") no-repeat calc(100% - 12px) center;
+      background-size: 11px; }
+  .form-call .radio {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+
+.form-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.radio {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #006178;
+  font-size: 14px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer; }
+
+.input-radio {
+  display: none; }
+
+.radio-custom {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border: 1px solid #C4D200;
+    border-radius: 50px;
+  margin: 0 14px 0 0; }
+
+.input-radio:checked + .radio-custom {
+  background: #C4D200; }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1630px) {
   .advantages-company-number {
@@ -1172,7 +1370,51 @@ footer {
   .video-section h2 {
     font-size: 38px; }
   .page h1 {
-    font-size: 34px; } }
+    font-size: 34px; }
+  .modal-header .close {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    right: 0;
+    top: -23px; }
+  .modal-content {
+    padding: 23px 30px 35px; }
+    .modal-content h3 {
+      font-size: 38px;
+      color: #006178; }
+    .modal-content .box-text {
+      font-size: 18px;
+      margin: 0 auto; }
+  .modal-body .btn {
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 97, 120, 0.1);
+            box-shadow: 0px 10px 30px rgba(0, 97, 120, 0.1);
+    height: 60px;
+    background: radial-gradient(100% 105.81% at 0% 100%, #006178 0%, #C4D200 100%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff; }
+  .btn-play-video {
+    color: #000;
+    font-size: 18px; }
+  .form-call .btn {
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 97, 120, 0.1);
+            box-shadow: 0px 10px 30px rgba(0, 97, 120, 0.1);
+    height: 60px;
+    background: radial-gradient(100% 105.81% at 0% 100%, #006178 0%, #C4D200 100%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff; }
+  .form-call input, .form-call select {
+    border: 1px solid #006178;
+    color: #C4D200; }
+  .form-call select {
+    color: #006178; }
+  .form-call label {
+    margin: 0 0 26px; }
+  .radio-custom {
+    border: 1px solid #006178; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
